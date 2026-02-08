@@ -1,0 +1,21 @@
+# Project-specific ignores
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.env
+node_modules/
+.vite/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Work / task management (local only)
+work/
+request.txt
+
+# Claude Code internals
+.claude/
